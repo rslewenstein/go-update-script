@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/rafael/Downloads
+cd /home/$USER/Downloads
 pwd
 
 find . -iname go* | while read fname; do
